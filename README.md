@@ -10,6 +10,8 @@ I have used docker environement. Where I have launched an **Ubuntu 18** containe
 
 To run **Apache Flink 1.9.1** *JDK 1.8* or greater is needed.
 
+Apache Flink default port: **8081**
+
 ## Usage
 
  1. Write the code.

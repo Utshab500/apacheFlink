@@ -22,6 +22,8 @@ Apache Flink default port: **8081**
 
 # Important Points
 
+Some important points I have came accross during the course of learning.
+
 ## What is Apache Flink?
 **Apche Flink** is a big data processing framework like **Hadoop** & **Spark** but there are few differences between these three frameworks.
 

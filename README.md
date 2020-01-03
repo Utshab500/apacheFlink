@@ -30,3 +30,14 @@ Some important points I have came accross during the course of learning.
  1. **Hadoop** was a ***batch processing framework*** it was not able to do *stream processing*.
  2. **Spark** is able to process ***batch*** and ***stream*** both kind of data but by core it is a batch processing engine and simulated in a way to process stream data but not a true stream processing engine.
  3. **Flink** is the true ***stream*** processing engine by core though it is also able to process batch data and it is fastest among all.
+
+## Batch vs Stream
+
+|Batch processing|Stream processing  |
+|--|--|
+| Data are accumulated and stored over a period of time a processed in a single shot. | Data are processed as soon as it arrives. |
+|It is used where and when the whole data is required to be accessed|Used to process real time data i.e ***Fraud detection*** or ***Sentiment analysis***|
+|It is run in a regular interval|It is needed to be up and running always|
+|It is more concerned to throughput than latency|It is more concerned to latency than throughput|
+
+

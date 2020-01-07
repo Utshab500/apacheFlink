@@ -23,7 +23,6 @@ public class WordCount
     DataSet<String> text = env.readTextFile(params.get("input"));
     
     DataSet<String> filtered = text.filter(new FilterFunction<String>()
-    
     {
       public boolean filter(String value)
       {
